@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1822358B1EE1109300492CFD /* boot.asm in Sources */ = {isa = PBXBuildFile; fileRef = 1822356B1EE1109300492CFD /* boot.asm */; };
+		1822358C1EE1109300492CFD /* fat12hdr.inc in Sources */ = {isa = PBXBuildFile; fileRef = 1822356D1EE1109300492CFD /* fat12hdr.inc */; };
+		1822358D1EE1109300492CFD /* load.inc in Sources */ = {isa = PBXBuildFile; fileRef = 1822356E1EE1109300492CFD /* load.inc */; };
+		1822358E1EE1109300492CFD /* pm.inc in Sources */ = {isa = PBXBuildFile; fileRef = 1822356F1EE1109300492CFD /* pm.inc */; };
+		1822358F1EE1109300492CFD /* loader.asm in Sources */ = {isa = PBXBuildFile; fileRef = 182235701EE1109300492CFD /* loader.asm */; };
+		182235901EE1109300492CFD /* sconst.inc in Sources */ = {isa = PBXBuildFile; fileRef = 182235771EE1109300492CFD /* sconst.inc */; };
+		182235911EE1109300492CFD /* clock.c in Sources */ = {isa = PBXBuildFile; fileRef = 1822357B1EE1109300492CFD /* clock.c */; };
+		182235921EE1109300492CFD /* global.c in Sources */ = {isa = PBXBuildFile; fileRef = 1822357C1EE1109300492CFD /* global.c */; };
+		182235931EE1109300492CFD /* i8259.c in Sources */ = {isa = PBXBuildFile; fileRef = 1822357D1EE1109300492CFD /* i8259.c */; };
+		182235941EE1109300492CFD /* kernel.asm in Sources */ = {isa = PBXBuildFile; fileRef = 1822357E1EE1109300492CFD /* kernel.asm */; };
+		182235951EE1109300492CFD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1822357F1EE1109300492CFD /* main.c */; };
+		182235961EE1109300492CFD /* proc.c in Sources */ = {isa = PBXBuildFile; fileRef = 182235801EE1109300492CFD /* proc.c */; };
+		182235971EE1109300492CFD /* protect.c in Sources */ = {isa = PBXBuildFile; fileRef = 182235811EE1109300492CFD /* protect.c */; };
+		182235981EE1109300492CFD /* start.c in Sources */ = {isa = PBXBuildFile; fileRef = 182235821EE1109300492CFD /* start.c */; };
+		182235991EE1109300492CFD /* syscall.asm in Sources */ = {isa = PBXBuildFile; fileRef = 182235831EE1109300492CFD /* syscall.asm */; };
+		1822359A1EE1109300492CFD /* klib.c in Sources */ = {isa = PBXBuildFile; fileRef = 182235851EE1109300492CFD /* klib.c */; };
+		1822359B1EE1109300492CFD /* kliba.asm in Sources */ = {isa = PBXBuildFile; fileRef = 182235861EE1109300492CFD /* kliba.asm */; };
+		1822359C1EE1109300492CFD /* string.asm in Sources */ = {isa = PBXBuildFile; fileRef = 182235871EE1109300492CFD /* string.asm */; };
+		1822359D1EE1109300492CFD /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1822358A1EE1109300492CFD /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1822355E1EE1106200492CFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		182235601EE1106200492CFD /* Assignment04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment04; sourceTree = BUILT_PRODUCTS_DIR; };
+		1822356B1EE1109300492CFD /* boot.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = boot.asm; sourceTree = "<group>"; };
+		1822356D1EE1109300492CFD /* fat12hdr.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = fat12hdr.inc; sourceTree = "<group>"; };
+		1822356E1EE1109300492CFD /* load.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = load.inc; sourceTree = "<group>"; };
+		1822356F1EE1109300492CFD /* pm.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = pm.inc; sourceTree = "<group>"; };
+		182235701EE1109300492CFD /* loader.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = loader.asm; sourceTree = "<group>"; };
+		182235721EE1109300492CFD /* const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
+		182235731EE1109300492CFD /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		182235741EE1109300492CFD /* proc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc.h; sourceTree = "<group>"; };
+		182235751EE1109300492CFD /* protect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protect.h; sourceTree = "<group>"; };
+		182235761EE1109300492CFD /* proto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proto.h; sourceTree = "<group>"; };
+		182235771EE1109300492CFD /* sconst.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = sconst.inc; sourceTree = "<group>"; };
+		182235781EE1109300492CFD /* string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string.h; sourceTree = "<group>"; };
+		182235791EE1109300492CFD /* type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		1822357B1EE1109300492CFD /* clock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clock.c; sourceTree = "<group>"; };
+		1822357C1EE1109300492CFD /* global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = global.c; sourceTree = "<group>"; };
+		1822357D1EE1109300492CFD /* i8259.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = i8259.c; sourceTree = "<group>"; };
+		1822357E1EE1109300492CFD /* kernel.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = kernel.asm; sourceTree = "<group>"; };
+		1822357F1EE1109300492CFD /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		182235801EE1109300492CFD /* proc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc.c; sourceTree = "<group>"; };
+		182235811EE1109300492CFD /* protect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = protect.c; sourceTree = "<group>"; };
+		182235821EE1109300492CFD /* start.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = start.c; sourceTree = "<group>"; };
+		182235831EE1109300492CFD /* syscall.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = syscall.asm; sourceTree = "<group>"; };
+		182235851EE1109300492CFD /* klib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = klib.c; sourceTree = "<group>"; };
+		182235861EE1109300492CFD /* kliba.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = kliba.asm; sourceTree = "<group>"; };
+		182235871EE1109300492CFD /* string.asm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm.asm; path = string.asm; sourceTree = "<group>"; };
+		182235881EE1109300492CFD /* a.img */ = {isa = PBXFileReference; lastKnownFileType = file; path = a.img; sourceTree = "<group>"; };
+		182235891EE1109300492CFD /* bochsrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bochsrc; sourceTree = "<group>"; };
+		1822358A1EE1109300492CFD /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1822355D1EE1106200492CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182235571EE1106200492CFD = {
+			isa = PBXGroup;
+			children = (
+				182235621EE1106200492CFD /* Assignment04 */,
+				182235611EE1106200492CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182235611EE1106200492CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182235601EE1106200492CFD /* Assignment04 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182235621EE1106200492CFD /* Assignment04 */ = {
+			isa = PBXGroup;
+			children = (
+				1822356A1EE1109300492CFD /* boot */,
+				182235711EE1109300492CFD /* include */,
+				1822357A1EE1109300492CFD /* kernel */,
+				182235841EE1109300492CFD /* lib */,
+				182235881EE1109300492CFD /* a.img */,
+				182235891EE1109300492CFD /* bochsrc */,
+				1822358A1EE1109300492CFD /* Makefile */,
+			);
+			path = Assignment04;
+			sourceTree = "<group>";
+		};
+		1822356A1EE1109300492CFD /* boot */ = {
+			isa = PBXGroup;
+			children = (
+				1822356B1EE1109300492CFD /* boot.asm */,
+				1822356C1EE1109300492CFD /* include */,
+				182235701EE1109300492CFD /* loader.asm */,
+			);
+			path = boot;
+			sourceTree = "<group>";
+		};
+		1822356C1EE1109300492CFD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1822356D1EE1109300492CFD /* fat12hdr.inc */,
+				1822356E1EE1109300492CFD /* load.inc */,
+				1822356F1EE1109300492CFD /* pm.inc */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		182235711EE1109300492CFD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				182235721EE1109300492CFD /* const.h */,
+				182235731EE1109300492CFD /* global.h */,
+				182235741EE1109300492CFD /* proc.h */,
+				182235751EE1109300492CFD /* protect.h */,
+				182235761EE1109300492CFD /* proto.h */,
+				182235771EE1109300492CFD /* sconst.inc */,
+				182235781EE1109300492CFD /* string.h */,
+				182235791EE1109300492CFD /* type.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		1822357A1EE1109300492CFD /* kernel */ = {
+			isa = PBXGroup;
+			children = (
+				1822357B1EE1109300492CFD /* clock.c */,
+				1822357C1EE1109300492CFD /* global.c */,
+				1822357D1EE1109300492CFD /* i8259.c */,
+				1822357E1EE1109300492CFD /* kernel.asm */,
+				1822357F1EE1109300492CFD /* main.c */,
+				182235801EE1109300492CFD /* proc.c */,
+				182235811EE1109300492CFD /* protect.c */,
+				182235821EE1109300492CFD /* start.c */,
+				182235831EE1109300492CFD /* syscall.asm */,
+			);
+			path = kernel;
+			sourceTree = "<group>";
+		};
+		182235841EE1109300492CFD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				182235851EE1109300492CFD /* klib.c */,
+				182235861EE1109300492CFD /* kliba.asm */,
+				182235871EE1109300492CFD /* string.asm */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1822355F1EE1106200492CFD /* Assignment04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182235671EE1106200492CFD /* Build configuration list for PBXNativeTarget "Assignment04" */;
+			buildPhases = (
+				1822355C1EE1106200492CFD /* Sources */,
+				1822355D1EE1106200492CFD /* Frameworks */,
+				1822355E1EE1106200492CFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment04;
+			productName = Assignment04;
+			productReference = 182235601EE1106200492CFD /* Assignment04 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182235581EE1106200492CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					1822355F1EE1106200492CFD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P27LWC7UL3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1822355B1EE1106200492CFD /* Build configuration list for PBXProject "Assignment04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 182235571EE1106200492CFD;
+			productRefGroup = 182235611EE1106200492CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1822355F1EE1106200492CFD /* Assignment04 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1822355C1EE1106200492CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182235931EE1109300492CFD /* i8259.c in Sources */,
+				1822358C1EE1109300492CFD /* fat12hdr.inc in Sources */,
+				1822359C1EE1109300492CFD /* string.asm in Sources */,
+				1822358D1EE1109300492CFD /* load.inc in Sources */,
+				1822359D1EE1109300492CFD /* Makefile in Sources */,
+				182235921EE1109300492CFD /* global.c in Sources */,
+				182235991EE1109300492CFD /* syscall.asm in Sources */,
+				1822359B1EE1109300492CFD /* kliba.asm in Sources */,
+				182235981EE1109300492CFD /* start.c in Sources */,
+				182235901EE1109300492CFD /* sconst.inc in Sources */,
+				182235911EE1109300492CFD /* clock.c in Sources */,
+				182235941EE1109300492CFD /* kernel.asm in Sources */,
+				1822359A1EE1109300492CFD /* klib.c in Sources */,
+				1822358B1EE1109300492CFD /* boot.asm in Sources */,
+				182235951EE1109300492CFD /* main.c in Sources */,
+				1822358F1EE1109300492CFD /* loader.asm in Sources */,
+				1822358E1EE1109300492CFD /* pm.inc in Sources */,
+				182235961EE1109300492CFD /* proc.c in Sources */,
+				182235971EE1109300492CFD /* protect.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		182235651EE1106200492CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		182235661EE1106200492CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		182235681EE1106200492CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P27LWC7UL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182235691EE1106200492CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P27LWC7UL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1822355B1EE1106200492CFD /* Build configuration list for PBXProject "Assignment04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182235651EE1106200492CFD /* Debug */,
+				182235661EE1106200492CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182235671EE1106200492CFD /* Build configuration list for PBXNativeTarget "Assignment04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182235681EE1106200492CFD /* Debug */,
+				182235691EE1106200492CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182235581EE1106200492CFD /* Project object */;
+}

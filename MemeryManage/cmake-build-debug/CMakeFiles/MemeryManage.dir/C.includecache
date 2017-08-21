@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Documents/Code/OS/MemeryManage/bottom.c
+stdlib.h
+-
+stdio.h
+-
+bottom.h
+/Users/apple/Documents/Code/OS/MemeryManage/bottom.h
+
+/Users/apple/Documents/Code/OS/MemeryManage/bottom.h
+type.h
+/Users/apple/Documents/Code/OS/MemeryManage/type.h
+
+/Users/apple/Documents/Code/OS/MemeryManage/call.h
+type.h
+/Users/apple/Documents/Code/OS/MemeryManage/type.h
+
+/Users/apple/Documents/Code/OS/MemeryManage/test.c
+call.h
+/Users/apple/Documents/Code/OS/MemeryManage/call.h
+bottom.h
+/Users/apple/Documents/Code/OS/MemeryManage/bottom.h
+stdio.h
+-
+
+/Users/apple/Documents/Code/OS/MemeryManage/type.h
+
